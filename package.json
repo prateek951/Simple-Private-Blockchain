@@ -1,0 +1,22 @@
+{
+  "name": "simple-private-blockchain",
+  "version": "1.0.0",
+  "description": "A simple private blockchain using LevelDB, Nodejs",
+  "main": "blockchain.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prateek951/Simple-Private-Blockchain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prateek951/Simple-Private-Blockchain/issues"
+  },
+  "homepage": "https://github.com/prateek951/Simple-Private-Blockchain#readme",
+  "dependencies": {
+    "level": "^4.0.0"
+  }
+}
