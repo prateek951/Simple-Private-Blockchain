@@ -2,6 +2,7 @@
 |  Learn more: level: https://github.com/Level/level |
 /===================================================*/
 
+
 let level = require('level');
 let chainDB = './chaindata';
 let db = level(chainDB);
