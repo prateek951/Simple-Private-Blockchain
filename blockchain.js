@@ -12,3 +12,22 @@ class Block {
     this.previousBlockHash = "";
   }
 }
+/**
+ * ================== Blockchain class ======================
+ * Class with a constructor for the new blockchain 
+ * ==========================================================
+ */
+class Blockchain {
+    constructor() {
+        this.chain = [];
+    }
+/**
+* ==========================================================
+* Method to add a new block to the blockchain 
+* ==========================================================
+*/
+  addABlock(newBlock) {
+    this.chain.push(newBlock);
+  }
+
+}
